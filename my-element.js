@@ -14,7 +14,7 @@ class MyElement extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `<p>Hello from MyElement!</p>`; // Set HTML first
-    this.appendChild(createImg("img", "./wix.png")); // Then append image
+    this.appendChild(createImg("img", "https://static.wixstatic.com/media/0b7189_d2d9c5f4d5894c0690390657abeae8fb~mv2.png")); // Then append image
   }
 }
 
